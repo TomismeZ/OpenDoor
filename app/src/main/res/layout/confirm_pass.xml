@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading_img1_bg"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F4F4F4"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.example.administrator.opendoor.view.FingerPrinterView
+        android:id="@+id/fpv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/check_pass"
+            style="@style/myStyle.BlackBigText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@id/keyboard_view"
+            android:gravity="center"
+            android:background="#F4F4F4"
+            android:maxLength="20"
+           android:inputType="numberPassword"
+            android:singleLine="true">
+            <requestFocus />
+        </EditText>
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="#F4F4F4"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/shuzi_selector"
+            android:keyTextColor="#000000"
+            android:keyTextSize="20sp"
+            android:shadowColor="#F4F4F4"
+            android:layout_marginBottom="50dp"/>
+    </RelativeLayout>
+</LinearLayout>

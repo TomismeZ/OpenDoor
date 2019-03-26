@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OpenDoor.iml" filepath="$PROJECT_DIR$/OpenDoor.iml" />
+      <module fileurl="file://E:\Users\java\androidstudio1\mywork\OpenDoor\OpenDoor.iml" filepath="E:\Users\java\androidstudio1\mywork\OpenDoor\OpenDoor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Users\java\androidstudio1\mywork\OpenDoor\app\app.iml" filepath="E:\Users\java\androidstudio1\mywork\OpenDoor\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://E:\Users\java\androidstudio1\mywork\OpenDoor\lib\lib.iml" filepath="E:\Users\java\androidstudio1\mywork\OpenDoor\lib\lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mynciclib/mynciclib.iml" filepath="$PROJECT_DIR$/mynciclib/mynciclib.iml" />
+      <module fileurl="file://E:\Users\java\androidstudio1\mywork\OpenDoor\mynciclib\mynciclib.iml" filepath="E:\Users\java\androidstudio1\mywork\OpenDoor\mynciclib\mynciclib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photochooselibrary/photochooselibrary.iml" filepath="$PROJECT_DIR$/photochooselibrary/photochooselibrary.iml" />
+      <module fileurl="file://E:\Users\java\androidstudio1\mywork\OpenDoor\photochooselibrary\photochooselibrary.iml" filepath="E:\Users\java\androidstudio1\mywork\OpenDoor\photochooselibrary\photochooselibrary.iml" />
+    </modules>
+  </component>
+</project>
